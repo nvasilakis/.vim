@@ -3,7 +3,7 @@
 ## About ##
 
 My  personal vim  configuration. Although  my .vimrc  is located  in the
-(dotrc repository)[http://github.com/nvasilakis/dotrc], the  rest of the
+[dotrc repository](http://github.com/nvasilakis/dotrc), the  rest of the
 configuration  is in  here. Current  plug ins  include the  following --
 interestingly, I plan to write  a vim package manager closely resembling
 the one in emacs 24.
