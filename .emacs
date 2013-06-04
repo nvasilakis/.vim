@@ -16,6 +16,10 @@
    (xterm-register-default-colors)
    (tty-set-up-initial-frame-faces))
 
+;; Proof General
+(load-file "~/.emacs.d/ProofGeneral/generic/proof-site.el")
+(setq coq-prog-name "/usr/bin/coqtop -emacs")
+
 ;; Add line numbers
 (require 'linum)
 (global-linum-mode 1)
