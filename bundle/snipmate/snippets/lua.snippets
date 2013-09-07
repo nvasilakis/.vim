@@ -5,16 +5,16 @@ snippet #!
 	${1}
 snippet if
 	if ${1:condition} then
-		${2:#statements}
+		${2:--statements}
 	end
 snippet elif
 	elseif ${1:condition} then
 		${2:#statements}
 snippet for
 	for ${1:k, v} in ${2:pairs(list)}; do
-		${3:#statements}
+		${3:--statements}
 	done
 snippet fu
 	function ${1:name}
-		${2:#statement#}
+		${2:--statement#}
 	end
