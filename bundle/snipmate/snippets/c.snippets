@@ -1,12 +1,9 @@
 # main()
 snippet main
-	/**
-	 * ${1:Entry point}
-	 **/
 	int
 	main(int argc, char *argv[])
 	{
-		${2}
+		${1}
 		return 0;
 	}
 # switch
@@ -87,22 +84,17 @@ snippet for
 	}
 # Custom For Loop
 snippet forr
-	for (${1:i} = ${2:0}; ${3:$1 < 10}; $1${4:++})
+	int ${1:i};
+	for ($1 = ${2:0}; ${3:$1 < 10}; $1${4:++})
 	{
-		${5:/* code */}
+		${5}
 	}
 # Function
 snippet fun
-	/**
-	 * ${1: doc}
-	 *
-	 * @param ${2:param-name} ${3:param-description}
-	 * @return ${4:return}
-	 **/
-	${5:void}
-	${6:function_name}(${7:type} $2)
+	${1:void}
+	${2:function_name}(${3})
 	{
-		${8:/* code */}
+		${4}
 	}
 # Function Declaration
 snippet fd
