@@ -1,15 +1,8 @@
 # #!/bin/bash
 snippet #!
 	#!/bin/bash
-		
-	##
-	# A script to ${1:keep it 72 characters!}
-	#
-	# Usage: ./${2:`Filename('$1')`}.sh
-	##
-	
-	${3}
-
+	# ${1}
+	${2}
 snippet if
 	if [[ ${1:condition} ]]; then
 		${2:#statements}
@@ -38,7 +31,6 @@ snippet case
 		${2:pattern})
 			${3};;
 	esac
-
 snippet fu
 	function ${1:name} {
 		${2:#statement#}
